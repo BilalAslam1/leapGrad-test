@@ -9,41 +9,42 @@ To execute the program:
 - Run npm start
 - Make requests to localhost:3000/
 
-## Register
+## Register routes
 
 - Make requests to localhost:3000/register
 - pass in username, email, password in req.body
 
-## Register
+## Chat with other users routes
 
-- Make requests to localhost:3000/signin
-- pass in email, password in req.body
+To send a message:
 
-## Message
-
-- To send a message:
 - Make requests to localhost:3000/sendMessage
 - pass in message to send as message, current user as user_id, user to send message to as to_id in req.body
 
-- To see all messages with a user:
+To see all messages with a user:
+
 - Make requests to localhost:3000/converstationWithUser
 - pass in current user_id, user to see messages with as to_id in req.body
 
-## Tweet
+## Tweet routes
 
-- To create a tweet:
+To create a tweet:
+
 - Make requests to localhost:3000/createtweet
 - pass in tweet as message and user id as user_id in req.body
 
-- To update a tweet:
+To update a tweet:
+
 - Make requests to localhost:3000/updatetweet
 - pass in updated tweet as message, user id as user_id, and tweet id as tweet_id in req.body
 
-- To get 5 or less of a user's tweet(s):
+To get 5 or less of a user's tweet(s):
+
 - Make requests to localhost:3000/readtweet
 - pass in user id as user_id in req.body
 
-- To delete a tweet:
+To delete a tweet:
+
 - Make requests to localhost:3000/deletetweet
 - pass in tweet id as tweet_id and user id as user_id in req.body
 
