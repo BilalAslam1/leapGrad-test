@@ -14,6 +14,13 @@ To execute the program:
 - Make requests to localhost:3000/register
 - pass in username, email, password in req.body
 
+## Signin routes
+
+- Make requests to localhost:3000/signin
+- pass in email, password in req.body
+
+#### The tweet and chatting with user requests require a authorization token (any string value) to be passed in the req.headers
+
 ## Chat with other users routes
 
 To send a message:
